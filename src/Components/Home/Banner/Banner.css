@@ -1,0 +1,78 @@
+.Banner {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    opacity: .79;
+}
+.SliderContent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.SliderTitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.SliderDescription {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.SliderButton1 {
+    padding: 15px 40px;
+    color: white;
+    background: rgb(255, 72, 0);
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.SliderButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.SliderButton1:hover{
+    background: rgb(221, 63, 0);
+}
+
+.SliderButton2 {
+    padding: 15px 40px;
+    color: white;
+    border: 1px solid white ;
+    outline: none;
+    background: rgba(255, 255, 255, 0.288);
+    border-radius: 3px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.SliderButton2:hover{
+    background: rgba(255, 255, 255, 0.37);
+}
