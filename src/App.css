@@ -40,3 +40,17 @@
 .White{
   color: white;
 }
+
+.Style1 {
+  width: 1px;
+  height: 50px;
+  background: rgb(163, 163, 163);
+}
+
+.Style2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  margin-left: -5px;
+  border: 2px solid orangered;
+}

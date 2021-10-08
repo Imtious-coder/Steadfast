@@ -8,12 +8,18 @@ const HelpSection = () => {
         <section className="container mt-5 mb-5 text-center">
             <p className="fw-bold fs-3">TALENT CROWDSOURCING TO HELP YOU RECRUIT</p>
             <p className="fw-bold fs-5 fst-italic">Bringing recruiters & employers together through crowdsourcing</p>
+            <div className="d-flex justify-content-center">
+                <div>
+                    <div className="Style1"></div>
+                    <div className="Style2"></div>
+                </div>
+            </div>
             <div className="row py-5">
                 <div className="col-md-6">
                     <img className="HelpSectionImage1" src={Image1} alt="" />
                     <p className="fw-bold">EMPLOYERS</p>
                     <p className="text-secondary fs-6"> The 10 most qualified candidates in less than 10 days!</p>
-                    <small className="text-secondary">Thousands of recruiters, a team of dedicated account managers, and a powerful algorithm to get you the 10 most qualified candidates in less than 10 days.</small>
+                    <small className="text-secondary">Thousands of recruiters, a team of dedicated account managers, and a powerful algorithm to get you the 10 most qualified candidates in less than 10 days.</small> <br />
                     <button className="HelpSectionButton">Learn more</button>
                 </div>
                 <div className="col-md-6">

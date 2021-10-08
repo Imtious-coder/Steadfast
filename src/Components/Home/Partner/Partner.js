@@ -13,7 +13,13 @@ const Partner = () => {
     return (
         <section className="container py-5">
             <p className="PartnerHeading">THE TRUSTED TALENT ACQUISITION SOLUTION</p>
-            <p className="PartnerSubHeading mb-5"> Steadfast provides stellar talent to 200+ top companies across the U.S.</p>
+            <p className="PartnerSubHeading"> Steadfast provides stellar talent to 200+ top companies across the U.S.</p>
+            <div className="d-flex justify-content-center pb-5">
+                <div>
+                    <div className="Style1"></div>
+                    <div className="Style2"></div>
+                </div>
+            </div>
             <div className="container d-flex justify-content-center">
                 <div className="row">
                     <div className="ImageCol col-6 col-md-3">
