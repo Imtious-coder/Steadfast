@@ -3,7 +3,7 @@
     height: 750px;
     position: relative;
     overflow: hidden;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
 .carousel-item{

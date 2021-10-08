@@ -1,0 +1,24 @@
+.PartnerHeading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.PartnerSubHeading {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+}
+
+.ImageCol {
+    display: flex;
+    justify-content: center;
+}
+
+.Images {
+    width: 150px;
+    height: 45px;
+    margin: 50px 0px;
+}

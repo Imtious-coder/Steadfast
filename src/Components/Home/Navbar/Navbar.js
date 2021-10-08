@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light Navbar">
+        <nav class="navbar navbar-expand-lg navbar-light Navbar sticky-top">
             <div class="container-fluid">
                 {/* Logo here... */}
                 <Link class="navbar-brand" href="#"> <img src={Logo} alt="" /> <span className="CompanyName White">Steadfast Int. Services</span> </Link>
