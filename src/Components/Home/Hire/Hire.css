@@ -1,0 +1,14 @@
+.Hire {
+    width: 100%;
+    background: orangered;
+}
+
+.HireButton {
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    background: transparent;
+}
