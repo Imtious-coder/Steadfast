@@ -1,15 +1,18 @@
 import React from 'react';
 import './Banner.css';
-import i from '../../Images/download.jfif';
-import i2 from '../../Images/istockphoto-1299152059-170667a.jpg';
+import Image1 from '../../Images/download.jfif';
+import Image2 from '../../Images/istockphoto-1299152059-170667a.jpg';
 
 const Banner = () => {
     return (
         <section className="Banner">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
                 <div class="carousel-inner">
+                    {/* Slide 1 */}
                     <div class="carousel-item active">
-                        <img src={i2} class="d-block w-100 image" alt="..." />
+                        {/* Image */}
+                        <img src={Image1} class="d-block w-100 image" alt="..." />
+                        {/* Content */}
                         <div className="SliderContent">
                             <div>
                                 <p className="SliderTitle">HARNESS THE POWER OF THE CROWD</p>
@@ -21,8 +24,11 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
+                    {/* Slide 2 */}
                     <div class="carousel-item">
-                        <img src={i} class="d-block w-100 image" alt="..." />
+                        {/* Image */}
+                        <img src={Image2} class="d-block w-100 image" alt="..." />
+                        {/* Content */}
                         <div className="SliderContent">
                             <div>
                                 <p className="SliderTitle">TALENT ACQUISITION SOLUTION TO HELP YOU</p>
@@ -35,6 +41,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
+                {/* Before After buttons */}
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>

@@ -13,7 +13,7 @@
 
 .nav-link {
     margin: auto;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 13px;
     color: white!important;
     border-bottom: 1.5px solid transparent;
@@ -45,4 +45,12 @@
 
 .NavbarButton:hover {
     background: rgb(224, 90, 0);
+}
+
+
+/* Media query */
+@media (max-width: 775px) {
+    .NavbarButton{
+        margin-left: 0px;
+    }
 }

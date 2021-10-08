@@ -1,9 +1,12 @@
 .Banner {
     width: 100%;
-    height: 750px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+
 }
 
 .carousel-item{
@@ -13,14 +16,14 @@
     overflow: hidden;
 }
 
-.image {
-    opacity: .79;
-}
+/* Content */
+
 .SliderContent {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +43,8 @@
     color: white;
     text-align: center;
 }
+
+/* Buttons */
 
 .SliderButton1 {
     padding: 15px 40px;
@@ -75,4 +80,24 @@
 
 .SliderButton2:hover{
     background: rgba(255, 255, 255, 0.37);
+}
+
+/* Media query */
+
+@media (max-width: 550px) {
+    .SliderTitle{
+        font-size: 20px;
+    }
+    .SliderDescription{
+        font-size: 28px;
+    }
+
+    .SliderButton1{
+        padding: 5px 5px;
+        margin-bottom: 20px;
+    }
+    .SliderButton2{
+        padding: 5px 5px;
+        margin-bottom: 20px;
+    }
 }

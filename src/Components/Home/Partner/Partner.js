@@ -12,14 +12,18 @@ import Image8 from '../../Images/C8.jpg'
 const Partner = () => {
     return (
         <section className="container py-5">
+            {/* Title */}
             <p className="PartnerHeading">THE TRUSTED TALENT ACQUISITION SOLUTION</p>
+            {/* Subtitle */}
             <p className="PartnerSubHeading"> Steadfast provides stellar talent to 200+ top companies across the U.S.</p>
+            {/* Design */}
             <div className="d-flex justify-content-center pb-5">
                 <div>
                     <div className="Style1"></div>
                     <div className="Style2"></div>
                 </div>
             </div>
+            {/* Images */}
             <div className="container d-flex justify-content-center">
                 <div className="row">
                     <div className="ImageCol col-6 col-md-3">

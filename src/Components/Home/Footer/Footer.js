@@ -5,34 +5,48 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <section className="Footer text-secondary">
-            <div className="container py-5">
-                <div className="row py-5">
-                    <div className="col-md-3">
-                        <p className="fw-bold fs-5 White">ABOUT US</p>
-                        <small>Reflik, the leader in crowdsourcing talent,
-                            finds top candidates in half the time and for half the cost, through its extensive network
-                            of recruiters and industry professionals.</small>
-                    </div>
-                    <div className="col-md-3">
-                        <p className="fw-bold fs-5 White">CONTACT INFO</p>
-                        <small><FontAwesomeIcon icon={faHome} /> 100 Franklin Square Dr, Suite 402.</small>
-                        <small>Somerset, NJ 08873</small>
-                        <br />
-                        <small><FontAwesomeIcon icon={faPhone} /> 1-855-573-3545</small>
-                        <br />
-                        <small><FontAwesomeIcon icon={faEnvelope} />info@reflik.com</small>
-                    </div>
-                    <div className="col-md-3">
-                        <p className="fw-bold fs-5 White mb-4">NEWSLETTER</p>
-                        <small>Subscribe to our newsletter for latest updates about Reflik</small>
-                    </div>
-                    <div className="col-md-3">
-                        <p className="fw-bold fs-5 White mb-4">CAREERS</p>
-                        <small>To learn about working with Reflik, please click here</small>
+        <section>
+            {/* Main Footer starts */}
+            <section className="Footer text-secondary">
+                <div className="container py-5">
+                    <div className="row pt-5">
+                        {/* About us */}
+                        <div className="col-6 col-md-3 mb-5">
+                            <p className="fw-bold fs-5 White">ABOUT US</p>
+                            <small>Steadfast, the leader in crowdsourcing talent,
+                                finds top candidates in half the time and for half the cost, through its extensive network
+                                of recruiters and industry professionals.</small>
+                        </div>
+                        {/* Contact information */}
+                        <div className="col-6 col-md-3">
+                            <p className="fw-bold fs-5 White">CONTACT INFO</p>
+                            <small><FontAwesomeIcon icon={faHome} /> 100 Franklin Square Dr, Suite 402.</small>
+                            <small>Somerset, NJ 08873</small>
+                            <br />
+                            <small><FontAwesomeIcon icon={faPhone} /> +8801698749818</small>
+                            <br />
+                            <small><FontAwesomeIcon icon={faEnvelope} />info@steadfast.com</small>
+                        </div>
+                        {/* Subscribe */}
+                        <div className="col-6 col-md-3">
+                            <p className="fw-bold fs-5 White mb-4">NEWSLETTER</p>
+                            <small>Subscribe to our newsletter for latest updates about Steadfast</small>
+                            <input type="email" placeholder="E-mail address ..." className="FooterEmailInput" />
+                        </div>
+                        {/* Career */}
+                        <div className="col-6 col-md-3">
+                            <p className="fw-bold fs-5 White mb-4">CAREERS</p>
+                            <small>To learn about working with Steadfast, please <a href="Coming soooooon">click here</a></small>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            {/* Main Footer ends */}
+
+            {/* Copyright */}
+            <section className="bg-black White">
+                <p className="text-center m-0 py-4 fs-6">© 2021 COPYRIGHT STEADFAST, INT. SERVICES ALL RIGHTS RESERVED.</p>
+            </section>
         </section>
     );
 };

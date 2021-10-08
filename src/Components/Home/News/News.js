@@ -12,14 +12,17 @@ import Image8 from '../../Images/E8.png'
 const News = () => {
     return (
         <section className="container py-5">
-            <p className="text-center fw-bold fs-3">REFLIK IN THE NEWS</p>
-            <p className="text-center fs-5 fst-italic"> See where Reflik's been featured</p>
+            {/* Title */}
+            <p className="text-center fw-bold fs-3">STEADFAST IN THE NEWS</p>
+            {/* Subtitle */}
+            <p className="text-center fs-5 fst-italic"> See where Steadfast's been featured</p>
             <div className="d-flex justify-content-center mb-5">
                 <div>
                     <div className="Style1"></div>
                     <div className="Style2"></div>
                 </div>
             </div>
+            {/* News Images */}
             <div className="container d-flex justify-content-center">
                 <div className="row">
                     <div className="ImageCol col-6 col-md-3">

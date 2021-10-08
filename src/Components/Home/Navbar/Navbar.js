@@ -15,22 +15,14 @@ const Navbar = () => {
                 </button>
                 {/* Navigation start */}
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <Link class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Employers
-                            </Link>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><Link class="dropdown-item" href="#">Talent Crowsourcing</Link></li>
-                                <li><Link class="dropdown-item" href="#">Agency Management</Link></li>
-                            </ul>
-                        </li>
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <Link class="nav-link" href="#">Agencies</Link>
+                            <Link class="nav-link" href="#">Home</Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" href="#">Recruiters</Link>
                         </li>
+                        {/* Dropdown */}
                         <li class="nav-item dropdown">
                             <Link class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Succes Stories
