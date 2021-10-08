@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import HelpSection from '../HelpSection/HelpSection';
 import Navbar from '../Navbar/Navbar';
+import News from '../News/News';
 import Partner from '../Partner/Partner';
 import Review from '../Review/Review';
 import Video from '../Video/Video';
@@ -16,6 +17,7 @@ const HomePage = () => {
             <HelpSection />
             <Video />
             <Review />
+            <News />
         </>
     );
 };

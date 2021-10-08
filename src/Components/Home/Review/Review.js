@@ -27,14 +27,14 @@ const Review = () => {
                     <img className="w-100 h-100" src={Image1} alt="" />
                 </div>
                 {/* Card1 Information */}
-                <div className="col-md-9 mt-5 py-5 shadow h-50">
+                <div className="col-md-9 mt-5 py-5 shadow-sm h-50">
                     <p className="pt-3">"I’ve never received so many candidates from one vendor that have made it through the interview stage in such a short time."</p>
                     <p> <b>EVAN LERMAN</b> Director of Recruiting, Interactive Brokers, LLC</p>
                 </div>
             </div>
             {/* Card 2 */}
             <div className="row my-5">
-                <div className="col-md-9 mt-5 py-5 shadow h-50">
+                <div className="col-md-9 mt-5 py-5 shadow-sm h-50">
                     {/* Card2 Information */}
                     <p className="pt-3">"I'm always looking for the best talent to work for our organization. With Steadfast's crowdsourcing capabilities, I am able to find the right people before they're even looking."</p>
                     <p> <b>Keith E. Stecher</b> Director of Human Resources, SB International, Inc.</p>
@@ -51,7 +51,7 @@ const Review = () => {
                     <img className="w-100 h-100" src={Image2} alt="" />
                 </div>
                 {/* Card3 Information */}
-                <div className="col-md-9 mt-5 py-5 shadow h-50">
+                <div className="col-md-9 mt-5 py-5 shadow-sm h-50">
                     <p className="pt-3">"Recruiting a Mumps Developer through Steadfast ltd. was a breeze and I saved more than $6,000 on recruiting costs!."</p>
                     <p> <b>Rochelle Simkins</b> Sr. Talent Acquisition Consultant, New Century Health.</p>
                 </div>

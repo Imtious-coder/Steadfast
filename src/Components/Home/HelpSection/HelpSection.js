@@ -7,7 +7,7 @@ const HelpSection = () => {
     return (
         <section className="container mt-5 mb-5 text-center">
             <p className="fw-bold fs-3">TALENT CROWDSOURCING TO HELP YOU RECRUIT</p>
-            <p className="fw-bold fs-5 fst-italic">Bringing recruiters & employers together through crowdsourcing</p>
+            <p className="fs-5 fst-italic">Bringing recruiters & employers together through crowdsourcing</p>
             <div className="d-flex justify-content-center">
                 <div>
                     <div className="Style1"></div>
