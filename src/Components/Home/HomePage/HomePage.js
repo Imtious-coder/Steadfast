@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import News from '../News/News';
 import Partner from '../Partner/Partner';
 import Review from '../Review/Review';
+import SocialIcon from '../SocialIcon/SocialIcon';
 import Video from '../Video/Video';
 import './HomePage.css';
 
@@ -20,6 +21,7 @@ const HomePage = () => {
             <Review />
             <News />
             <Hire />
+            <SocialIcon />
         </>
     );
 };
