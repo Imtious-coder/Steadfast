@@ -1,0 +1,85 @@
+.RecruiterBanner {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../Images/RB.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.RecruiterBannerContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+.RecruiterBannerTitle {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+
+.RecruiterBannerDescription {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Buttons */
+
+.RecruiterBannerButton1 {
+    padding: 15px 40px;
+    color: white;
+    background: rgb(255, 72, 0);
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.RecruiterBannerButton {
+    display: flex;
+    justify-content: center;
+}
+
+.RecruiterBannerButton1:hover{
+    background: rgb(221, 63, 0);
+}
+
+.RecruiterHelpCardImages {
+    width: 70%;
+    margin-left: 15%;
+    height: 80%;
+}
+
+.RecruiterHelpCardTitle {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.RecruiterHelpCardButton {
+    color: rgb(70, 70, 255);
+    text-align: center;
+}
+
+.RecruiterHelpInfoTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.RecruiterHelpInfoDescription {
+    font-size: 14px;
+}
