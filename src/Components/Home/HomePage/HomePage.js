@@ -3,7 +3,6 @@ import Banner from '../Banner/Banner';
 import Footer from '../../Shared/Footer/Footer';
 import HelpSection from '../HelpSection/HelpSection';
 import Hire from '../Hire/Hire';
-import Navbar from '../Navbar/Navbar';
 import News from '../News/News';
 import Partner from '../Partner/Partner';
 import Review from '../Review/Review';

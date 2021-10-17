@@ -7,6 +7,7 @@ import {
 import HomePage from './Components/Home/HomePage/HomePage';
 import Navbar from './Components/Home/Navbar/Navbar';
 import Recruiters from './Components/Recruiters/Recruiters';
+import SignUpStart from './Components/SignUp/SignUpStart/SignUpStart';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route path="/recruiters">
           <Recruiters />
+        </Route>
+        <Route path="/signup">
+          <SignUpStart />
         </Route>
         <Route path="/">
           <HomePage />

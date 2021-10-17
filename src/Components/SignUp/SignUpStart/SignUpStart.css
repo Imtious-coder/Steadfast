@@ -1,0 +1,47 @@
+.SignUpStart {
+    display: flex;
+    justify-content: center;
+}
+
+.SignUpStartHeading {
+    font-size: 38px;
+    text-align: center;
+    color: rgba(44, 44, 44, 0.842);
+}
+
+.SignUpStartSubHeading {
+    font-size: 24px;
+    text-align: center;
+    color: rgba(73, 73, 73, 0.849);
+}
+
+.SignUpStartDescription {
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+}
+
+
+.SignUpStartCards {
+
+}
+
+.SignUpStartRecruiterCards {
+    border: 10px solid rgb(153, 153, 153);
+}
+
+.SignUpStartRecruiterCardsButton {
+    width: 90%;
+    padding: 10px 0px 12px 0px;
+    margin: 0 5%;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(255, 94, 36);
+    transition: all .3s ease-in-out;
+}
+
+.SignUpStartRecruiterCardsButton:hover {
+    background-color: orangered;
+}

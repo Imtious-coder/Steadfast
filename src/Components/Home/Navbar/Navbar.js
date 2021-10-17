@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav class="navbar navbar-expand-lg navbar-light Navbar sticky-top">
             <div class="container-fluid">
                 {/* Logo here... */}
-                <Link class="navbar-brand" to="/"> <img src={Logo} alt="" /> <span className="CompanyName White">Steadfast Int. Services</span> </Link>
+                <Link class="navbar-brand" to="/"> <img style={{ height: "50px", width: "50px" }} src={Logo} alt="" /> <span className="CompanyName White">Steadfast Int. Services</span> </Link>
                 {/* Toogle button */}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,9 @@ const Navbar = () => {
                             <button className="NavbarButton">Login</button>
                         </li>
                         <li class="nav-item mt-1">
-                            <button className="NavbarButton">Sign UP</button>
+                            <Link to="/signup">
+                                <button className="NavbarButton">Sign UP</button>
+                            </Link>
                         </li>
                     </ul>
                 </div>
