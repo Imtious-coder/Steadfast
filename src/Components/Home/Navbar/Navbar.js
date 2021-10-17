@@ -28,7 +28,7 @@ const Navbar = () => {
                                 Succes Stories
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><Link class="dropdown-item" href="#">Employers who hired top talents</Link></li>
+                                <li><Link class="dropdown-item" to="/top-talent-hiring">Employers who hired top talents</Link></li>
                                 <li><Link class="dropdown-item" href="#">Recruiters who earned thousands</Link></li>
                             </ul>
                         </li>
