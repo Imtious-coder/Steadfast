@@ -1,0 +1,39 @@
+.SignUpForm{
+    width: 50%;
+    margin: 0px 25%;
+}
+
+.Form {
+    width: 80%;
+    margin: 0px 10% 50px 10%;
+    padding: 20px;
+    border: 10px solid rgb(233, 233, 233);
+}
+
+.FormInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px 0px;
+    color: grey;
+    outline: none;
+    border-radius: 5px;
+    border: 1.5px solid rgb(219, 219, 219);
+}
+
+.SignUpButton {
+    width: 100%;
+    padding: 10px 0px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(255, 111, 59);
+    transition: all .3s ease-in-out;
+}
+
+.SignUpButton:hover {
+    background-color: rgb(255, 84, 22);
+}

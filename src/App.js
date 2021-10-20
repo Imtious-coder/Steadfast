@@ -9,6 +9,7 @@ import Navbar from './Components/Home/Navbar/Navbar';
 import Recruiters from './Components/Recruiters/Recruiters';
 import SignUpStart from './Components/SignUp/SignUpStart/SignUpStart';
 import TopTalentHiring from './Components/TopTalentHiring/TopTalentHiring';
+import SignUpForm from './Components/SignUp/SignUpForm/SignUpForm';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/top-talent-hiring">
           <TopTalentHiring />
+        </Route>
+        <Route path="/signUpForm">
+          <SignUpForm />
         </Route>
         <Route path="/">
           <HomePage />

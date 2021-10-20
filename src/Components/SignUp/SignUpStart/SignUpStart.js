@@ -2,6 +2,7 @@ import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faLock, faShieldAlt, faUnlockAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../../Shared/Footer/Footer';
 import SocialIcon from '../../Shared/SocialIcon/SocialIcon';
 import './SignUpStart.css';
@@ -27,7 +28,9 @@ const SignUpStart = () => {
                                 <p className="fs-6 text-center pt-4">Sign Up with</p>
                                 <p className="fs-3 text-center pb-3 text-danger"><FontAwesomeIcon icon={faGoogle} /></p>
                                 <p className="fs-6 text-center pb-3">or</p>
-                                <button className="SignUpStartRecruiterCardsButton mb-5">Create Recruiter Account</button>
+                                <Link to="/signUpForm">
+                                    <button className="SignUpStartRecruiterCardsButton mb-5">Create Recruiter Account</button>
+                                </Link>
                             </div>
                             <div className="col-md-2"></div>
                             <div className="col-12 col-md-4 mt-5 SignUpStartRecruiterCards">
@@ -36,7 +39,9 @@ const SignUpStart = () => {
                                 <p className="fs-6 text-center pt-4">Sign Up with</p>
                                 <p className="fs-3 text-center pb-3 text-danger"><FontAwesomeIcon icon={faGoogle} /></p>
                                 <p className="fs-6 text-center pb-3">or</p>
-                                <button className="SignUpStartRecruiterCardsButton mb-5">Create Employer Account</button>
+                                <Link to="/signUpForm">
+                                    <button className="SignUpStartRecruiterCardsButton mb-5">Create Employer Account</button>
+                                </Link>
                             </div>
                             <div className="col-md-1"></div>
                         </div>
