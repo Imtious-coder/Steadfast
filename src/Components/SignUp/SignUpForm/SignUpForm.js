@@ -84,6 +84,7 @@ const SignUpForm = () => {
                         onChange={handleType}
                     >
                         <option>Employee</option>
+                        <option>HR</option>
                         <option>Recruiter</option>
                     </select>
                     <input
@@ -106,6 +107,7 @@ const SignUpForm = () => {
                         Sign Up
                     </button>
                 </form>
+                <p className="ms-5 mb-5">By creating an account you agree to Steadfast´s <span className="text-primary">Terms of Use</span> and <span className="text-primary"> Privacy Policy.</span></p>
             </section>
             <SocialIcon />
             <Footer />

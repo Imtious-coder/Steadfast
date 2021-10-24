@@ -1,13 +1,17 @@
 import React from 'react';
 import './News.css';
-import Image1 from '../../Images/E1.png'
-import Image2 from '../../Images/E2.png'
-import Image3 from '../../Images/E3.jpg'
-import Image4 from '../../Images/E4.png'
-import Image5 from '../../Images/E5.png'
-import Image6 from '../../Images/E6.png'
-import Image7 from '../../Images/E7.jpg'
-import Image8 from '../../Images/E8.png'
+import Image1 from '../../Images/E1.png';
+import Image2 from '../../Images/E2.png';
+import Image3 from '../../Images/E3.jpg';
+import Image4 from '../../Images/E4.png';
+import Image5 from '../../Images/E5.png';
+import Image6 from '../../Images/E6.png';
+import Image7 from '../../Images/E7.jpg';
+import Image8 from '../../Images/E8.png';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const News = () => {
     return (
@@ -23,7 +27,7 @@ const News = () => {
                 </div>
             </div>
             {/* News Images */}
-            <div className="container d-flex justify-content-center">
+            <div className="container d-flex justify-content-center" data-aos="fade-left" data-aos-duration="2000">
                 <div className="row">
                     <div className="ImageCol col-6 col-md-3">
                         <img className="Images" src={Image1} alt="" />

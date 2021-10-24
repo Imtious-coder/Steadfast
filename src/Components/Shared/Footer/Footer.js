@@ -1,13 +1,21 @@
-import { faEnvelope, faHome, faMailBulk, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Footer.css';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Footer = () => {
     return (
         <section>
             {/* Main Footer starts */}
-            <section className="Footer text-secondary">
+            <section
+                className="Footer text-secondary"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+            >
                 <div className="container py-5">
                     <div className="row pt-5">
                         {/* About us */}

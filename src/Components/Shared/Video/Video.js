@@ -1,9 +1,12 @@
 import React from 'react';
 import './Video.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Video = () => {
     return (
-        <section className="container py-5">
+        <section className="container py-5" data-aos="zoom-in-down" data-aos-duration="2000">
             {/* Title */}
             <p className="fw-bold fs-3 text-center">WATCH A SHORT DEMO VIDEO </p>
             {/* Design */}

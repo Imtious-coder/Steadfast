@@ -9,9 +9,14 @@ import Image6 from '../../Images/C6.png'
 import Image7 from '../../Images/C7.png'
 import Image8 from '../../Images/C8.jpg'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 const Partner = () => {
     return (
-        <section className="container py-5">
+        <section className="container py-5" data-aos="fade-right" data-aos-duration="2000">
             {/* Title */}
             <p className="PartnerHeading">THE TRUSTED TALENT ACQUISITION SOLUTION</p>
             {/* Subtitle */}

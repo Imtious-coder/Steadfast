@@ -3,6 +3,10 @@ import './HelpSection.css';
 import Image1 from '../../Images/D1.png'
 import Image2 from '../../Images/D2.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 const HelpSection = () => {
     return (
         <section className="container mt-5 mb-5 text-center">
@@ -20,7 +24,7 @@ const HelpSection = () => {
             {/* Cards */}
             <div className="row py-5">
                 {/* card 1 */}
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-right" data-aos-duration="2000">
                     <img className="HelpSectionImage1" src={Image1} alt="" />
                     <p className="fw-bold">EMPLOYERS</p>
                     <p className="text-secondary fs-6"> The 10 most qualified candidates in less than 10 days!</p>
@@ -28,7 +32,7 @@ const HelpSection = () => {
                     <button className="HelpSectionButton">Learn more</button>
                 </div>
                 {/* Card2 */}
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-left" data-aos-duration="2000">
                     <img className="HelpSectionImage2" src={Image2} alt="" />
                     <p className="fw-bold mt-5">RECRUITERS</p>
                     <p className="text-secondary"> Earn more placement fees.</p>

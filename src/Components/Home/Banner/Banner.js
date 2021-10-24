@@ -1,11 +1,15 @@
 import React from 'react';
 import './Banner.css';
-import Image1 from '../../Images/download.jfif';
-import Image2 from '../../Images/istockphoto-1299152059-170667a.jpg';
+import Image2 from '../../Images/download.jfif';
+import Image1 from '../../Images/istockphoto-1299152059-170667a.jpg';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Banner = () => {
     return (
-        <section className="Banner">
+        <section className="Banner" data-aos="fade-up">
             <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     {/* Slide 1 */}
@@ -13,7 +17,7 @@ const Banner = () => {
                         {/* Image */}
                         <img src={Image1} class="d-block w-100 image" alt="..." />
                         {/* Content */}
-                        <div className="SliderContent">
+                        <div className="SliderContent" data-aos="zoom-in">
                             <div>
                                 <p className="SliderTitle">HARNESS THE POWER OF THE CROWD</p>
                                 <p className="SliderDescription">TO FILL JOB OPENINGS</p>
@@ -29,7 +33,7 @@ const Banner = () => {
                         {/* Image */}
                         <img src={Image2} class="d-block w-100 image" alt="..." />
                         {/* Content */}
-                        <div className="SliderContent">
+                        <div className="SliderContent" data-aos="zoom-in" >
                             <div>
                                 <p className="SliderTitle">TALENT ACQUISITION SOLUTION TO HELP YOU</p>
                                 <p className="SliderDescription">HIRE THE MOST QUALIFIED CANDIDATES</p>

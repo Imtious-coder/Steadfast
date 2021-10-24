@@ -1,9 +1,12 @@
 import React from 'react';
 import './Review.css';
-
 // Images
 import Image1 from '../../Images/ProfileM.jfif';
 import Image2 from '../../Images/ProfileF.jfif';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Review = () => {
     return (
@@ -21,7 +24,7 @@ const Review = () => {
             </div>
             {/* Cards start */}
             {/* Card1 */}
-            <div className="row my-5">
+            <div className="row my-5" data-aos="zoom-in-left" data-aos-duration="2000">
                 {/* Card1 Image */}
                 <div className="col-md-3">
                     <img className="w-100 h-100" src={Image1} alt="" />
@@ -33,7 +36,7 @@ const Review = () => {
                 </div>
             </div>
             {/* Card 2 */}
-            <div className="row my-5">
+            <div className="row my-5" data-aos="zoom-in-right" data-aos-duration="2000">
                 <div className="col-md-9 mt-5 py-5 shadow-sm h-50">
                     {/* Card2 Information */}
                     <p className="pt-3">"I'm always looking for the best talent to work for our organization. With Steadfast's crowdsourcing capabilities, I am able to find the right people before they're even looking."</p>
@@ -45,7 +48,7 @@ const Review = () => {
                 </div>
             </div>
             {/* Card 3 */}
-            <div className="row my-5">
+            <div className="row my-5" data-aos="zoom-in-left" data-aos-duration="2000">
                 {/* Card3 Image */}
                 <div className="col-md-3">
                     <img className="w-100 h-100" src={Image2} alt="" />
