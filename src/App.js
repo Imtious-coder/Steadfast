@@ -10,6 +10,7 @@ import Recruiters from './Components/Recruiters/Recruiters';
 import SignUpStart from './Components/SignUp/SignUpStart/SignUpStart';
 import TopTalentHiring from './Components/TopTalentHiring/TopTalentHiring';
 import SignUpForm from './Components/SignUp/SignUpForm/SignUpForm';
+import Career from './Components/Career/Career';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path="/signUpForm">
           <SignUpForm />
+        </Route>
+        <Route path="/career">
+          <Career />
         </Route>
         <Route path="/">
           <HomePage />

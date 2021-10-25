@@ -41,19 +41,45 @@ const Navbar = () => {
                         </li>
                         {/* Dropdown */}
                         <li class="nav-item dropdown">
-                            <Link class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link
+                                class="nav-link dropdown-toggle"
+                                href="#" id="navbarDropdownMenuLink"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
                                 Succes Stories
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><Link class="dropdown-item" to="/top-talent-hiring">Employers who hired top talents</Link></li>
-                                <li><Link class="dropdown-item" href="#">Recruiters who earned thousands</Link></li>
+                                <li>
+                                    <Link
+                                        class="dropdown-item"
+                                        to="/top-talent-hiring">
+                                        Employers who hired top talents
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        class="dropdown-item"
+                                        href="#">
+                                        Recruiters who earned thousands
+                                    </Link>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" href="#">Career</Link>
+                            <Link
+                                to="/career"
+                                class="nav-link">
+                                Career
+                            </Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" href="#">FAQ</Link>
+                            <Link
+                                class="nav-link"
+                                href="#">
+                                FAQ
+                            </Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" href="#">Contact Us</Link>
